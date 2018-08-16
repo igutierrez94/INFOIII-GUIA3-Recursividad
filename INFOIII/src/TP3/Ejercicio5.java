@@ -9,13 +9,11 @@ package TP3;
  *
  * @author nacho
  */
-public class Ejercicio3 {
+public class Ejercicio5 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         int[] info = {3,5,7,9,11,13,15};
         mostrar_matriz(info, info.length);
     }
@@ -29,6 +27,9 @@ public class Ejercicio3 {
         }
         /*if(tam == 0)
             return;
+        System.out.println(datos[tam-1]);
+        
+        mostrar_matriz(datos, tam-1);
         */
            
     }
